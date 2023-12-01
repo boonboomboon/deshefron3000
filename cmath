@@ -1,46 +1,12 @@
-#include <iostream>
-#include <cmath>
-
-using namespace std;
-
-// Funzione per risolvere l'equazione quadratica ax^2 + bx + c = 0
-void risolviEquazioneQuadratica(double a, double b, double c) {
-    // Calcolo del discriminante
-    double discriminante = b * b - 4 * a * c;
-
-    // Verifica del discriminante
-    if (discriminante > 0) {
-        // Due soluzioni reali distinte
-        double radice1 = (-b + sqrt(discriminante)) / (2 * a);
-        double radice2 = (-b - sqrt(discriminante)) / (2 * a);
-        cout << "Due soluzioni reali distinte: " << radice1 << " e " << radice2 << endl;
-    } else if (discriminante == 0) {
-        // Una soluzione reale doppia
-        double radice = -b / (2 * a);
-        cout << "Una soluzione reale doppia: " << radice << endl;
-    } else {
-        // Soluzioni complesse
-        double parteReale = -b / (2 * a);
-        double parteImmaginaria = sqrt(abs(discriminante)) / (2 * a);
-        cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
-             << parteReale << " - " << parteImmaginaria << "i" << endl;
-    }
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
 }
-
-int main() {
-    cout << "Programma per risolvere equazioni quadratiche: ax^2 + bx + c = 0" << endl;
-
-    // Input dei coefficienti dell'equazione quadratica dall'utente
-    double a, b, c;
-    cout << "Inserisci il coefficiente a: ";
-    cin >> a;
-    cout << "Inserisci il coefficiente b: ";
-    cin >> b;
-    cout << "Inserisci il coefficiente c: ";
-    cin >> c;
-
-    // Chiamata della funzione per risolvere l'equazione quadratica
-    risolviEquazioneQuadratica(a, b, c);
-
-    return 0;
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
 }
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
