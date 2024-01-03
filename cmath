@@ -10,3 +10,99 @@ cin.clear();
 cin.ignore(numeric_limits<streamsize>::max(), '\n');
 cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
      << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
+if (a == 0) {
+    cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
+    return 1; // Uscita con codice di errore
+}
+if (cin.fail()) {
+    cout << "Input non valido. Assicurati di inserire numeri." << endl;
+    return 1; // Uscita con codice di errore
+}
+cin.clear();
+cin.ignore(numeric_limits<streamsize>::max(), '\n');
+cout << "Due soluzioni complesse: " << parteReale << " + " << parteImmaginaria << "i e "
+     << parteReale << " - " << parteImmaginaria << "i" << endl;
