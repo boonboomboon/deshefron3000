@@ -1,10 +1,6 @@
 if (a == 0) {
     cout << "Il coefficiente a non può essere zero. Inserisci nuovamente i coefficienti." << endl;
-    return 1; // Uscita con codice di errore
-}
-if (cin.fail()) {
-    cout << "Input non valido. Assicurati di inserire numeri." << endl;
-    return 1; // Uscita con codice di errore
+    return 1; // Uscita con codice 
 }
 cin.clear();
 cin.ignore(numeric_limits<streamsize>::max(
